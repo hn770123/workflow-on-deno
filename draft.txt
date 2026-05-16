@@ -1,0 +1,6 @@
+Deno + SQLite + vanilla js によるWebアプリケーションの検証プロジェクト
+
+## 実装ステップ
+step 1 hello world のソースとテストを作成
+step 2 ビルド＆デプロイ
+step 3 ユーザー認証（sqlite）、パスワード更新
