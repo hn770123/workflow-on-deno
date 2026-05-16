@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  # GitHub Actions のランナーで Node.js 20 の非推奨警告に対応するため、Node.js 24 を強制的に使用するように設定します。
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
